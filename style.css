@@ -1,0 +1,213 @@
+/* applies to styling of the entire page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h3{
+    color:black;
+}
+/* sets the bacground color of the body */
+body { 
+    background-color: rgb(14, 12, 12);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* set font size for all p tags */
+p {
+    font-size: 16px;
+}
+
+/* sets the styling in the header */
+.header {
+    width: 100%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(110, 9, 9);
+    color: #ffffff; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* sets how header h1 is displayed */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+/* sets styling for all elements in "nav" tag */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* sets list style for ul in "nav" tag */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* sets properties "li" tags */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* sets color of "a" tags */
+a {
+    color: rgb(0, 0, 138);
+    text-decoration: none;
+}
+
+/* sets properties of the background image */
+.picture {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("IMG_4082.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* sets the properties in the "content" class */
+.content {
+    width: 100%;
+    margin-left: 20px;
+}
+
+/* sets the image to the left of the text */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* sets the image to the right of the text */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* sets properties of "search-engine-optimization" section */
+.horiseon-refractor-homework {
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(110, 9, 9);
+    color: #ffffff;
+}
+
+/* sets the height of "search-engine-optimization" image */
+.horiseon-refractor-homework input {
+    max-height: 200px;
+    max-width: 100%;
+;
+}
+#work-img:hover {
+    background-color: yellow;
+}
+/* sets margin and font size of search-engine-optimization h2 */
+.horiseon-refractor-homework h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color:rgb(37, 34, 34);
+}
+
+/* sets properties of "online-reputation-management" section */
+.About-Me {
+    margin-bottom:10px;
+    padding: 10px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* sets the height of "online-reputation-management" image */
+.About-Me img {
+    max-height: 200px;
+    max-width:  200px;
+}
+
+/* sets margin and font size of online-reputation-management h2 */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color:rgb(37, 34, 34);
+}
+
+/* sets properties of "social-media-marketing" section */
+.Contact-Me {
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets the height of "social-media-marketing" image */
+.Contact-Me img {
+    max-height: 200px;
+    max-width: 200px;
+    color:rgb(37, 34, 34);
+}
+
+/* sets margin and font size of social-media-marketing h2 */
+.Contact-Me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color:rgb(37, 34, 34);
+}
+
+.Resume {
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(110, 9, 9);
+    color: #ffffff;
+}
+.Resume input {
+        max-height: 300px;
+        max-width: 100%;
+        color:rgb(37, 34, 34);
+    
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+@media screen and (max-width: 992px) {
+    .content {
+      width: 100%;
+    }
+    .header {
+        width: 100%
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .content {
+      width: 100%;
+    }
+    .header {
+        width: 100%
+    }
+  }
+  
